@@ -20,6 +20,7 @@ int main(){
 	
 		if(turn>8){
 			printf("\nTie Occured");
+			free_mem(board);
 			exit(0);
 		} //to check if all blocks are played or not
 		
