@@ -3,7 +3,7 @@
 int main(){
 	char *board[COLUMN];
 	for(int i=0; i<ROW; i++){
-		board[i] = (char *)calloc(1, sizeof(char));
+		board[i] = (char *)calloc(COLUMN, sizeof(char));
 		if(board[i]==NULL){
 			perror("Memory Allocation Failed");
 			exit(-1);
