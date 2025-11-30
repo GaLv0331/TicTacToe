@@ -7,7 +7,7 @@ A two player Tic-Tac-Toe game implemented in C.
     Console Based Interface:   Runs entirely in the terminal.
     Clear Board Display:       Renders the 3x3 game board visually.
     Input Validation:          Ensures players select valid, unoccupied spots.
-    Win/Draw Detection:        Accurately determines when a player wins or if the game ends in a draw.
+    Win/Draw Detection:        Accurately determines wins or draw in a game.
 
 ## Getting Started
     This project is built using C and can be compiled with standard C compilers like GCC.
